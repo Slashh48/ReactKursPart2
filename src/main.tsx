@@ -6,6 +6,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import App from "./App";
 import "./index.css";
 
+//overwrite default options
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
