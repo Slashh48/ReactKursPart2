@@ -19,7 +19,7 @@ const PostList = () => {
       {posts?.map((post) => (
         <li key={post.id} className="list-group-item">
           {post.title}
-          <br></br>
+          <br />
           {post.body}
         </li>
       ))}
